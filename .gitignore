@@ -1,21 +1,37 @@
+#FILES FOR INTELLIJ IDEA
+#=======================
+**/.idea/workspace.xml 
+**/.idea/tasks.xml
+**/.idea/uiDesigner.xml
+**/.idea/gradle.xml
+**/.idea/modules.xml
+**/.idea/deployment.xml
+**/.idea/discord.xml
+**/.idea/shelf
+**/.idea/libraries-with-intellij-classes.xml
+**/.idea/php.xml
+**/.idea/copilot/
+
+#FILES FOR GRADLE
+#=======================
 .gradle
+/build/
 **/build/
-!src/**/build/
 
-# Ignore Gradle GUI config
-gradle-app.setting
+#FILES FOR MCREATOR DEV WORKSPACE
+#===============================
+/jdk/
+/logs
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+#SYSTEM AND JAVA FILES
+#=====================
+Thumbs.db
+debug.log
+hs_err_pid*
 
-# Avoid ignore Gradle wrappper properties
-!gradle-wrapper.properties
-
-# Cache of project
-.gradletasknamecache
-
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+#MACOS
+#=====================
+.DS_Store
+.AppleDouble
+.LSOverride
+/.idea/runConfigurations.xml
